@@ -1,8 +1,12 @@
-The city of Nashville provides a dataset of known burials in city cemeteries from 1846 through 1979. This dataset holds factual information, but it also offers a fascinating glimpse into historical trends in medicine, literacy, racial equality, and more.
+## Nashville City Cemetery Association Analysis
 
-The Nashville City Cemetery Association has asked you to explore the dataset to create charts that can be used in marketing materials. The following exercises are a _starting point_ for exploring the data and creating visualizations. Once you have completed the exercises below, create additional visualizations to accompany storytelling points. An example of this is shown below for the first exercise.
+ Used a dataset from the Nashville City Cemetery Association (NCCA) of known burials in city cemeteries from 1846 through 1979. This dataset holds factual information, but it also offers a fascinating glimpse into historical trends in medicine, literacy, racial equality, and more.
 
-![top 10 causes](assets/top_10_death_causes.png)
+As a class we used the questions below as a starting point and then created our own visualizations to help the NCCA attract interest in visiting the cemetery. I chose to analyze the data pertaining to cholera epidemics in Nashville and I did further research into how cholera is spread as well as some of the lives affected by the epidemics. 
+
+![Marketing Piece](cemproject.png)
+
+The Nashville City Cemetery Association has asked you to explore the dataset to create charts that can be used in marketing materials. The following exercises are a _starting point_ for exploring the data and creating visualizations. Once you have completed the exercises below, create additional visualizations to accompany storytelling points.
 
 1.	Use a pivot table to find the 10 most common (known) recorded causes of death, and evaluate the counts of each type. Once you have your metrics, plot these in a **bar chart**. In the analysis of the top 10 causes of death, you may see spelling mistakes that are affecting your counts. For example, you can assume Cholera and Cholrea are the same cause of death. Create a new column in the original dataset to update spelling errors to make your count of the top 10 causes more accurate. You will need to **refresh your pivot table** to see changes applied. (For the new column you create, copy the column with `Cause of Death/Burial` and correct spelling errors only for causes that appear in your top 10 list).
 
@@ -20,6 +24,3 @@ The Nashville City Cemetery Association has asked you to explore the dataset to 
     c.	There was a particularly famous person buried in this cemetery. Can you find that person?
 
 7. Do you notice any interesting patterns regarding where (`Section/Lot`) people were buried?
-
-
-#### Create a new sheet for each pivot table or analysis work done to create a visualization and give each sheet a descriptive/meaningful name. Put all final charts (along with the related story) on their own worksheet. You should include any charts on this sheet that you think deliver a fun marketing piece. 
